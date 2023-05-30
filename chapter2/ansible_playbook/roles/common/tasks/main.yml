@@ -5,7 +5,7 @@
 
 - name: install Java and tools
   yum:
-    name: ['dstat', 'java-1.8.0-amazon-corretto.x86_64', 'java-1.8.0-amazon-corretto-devel.x86_64', 'krb5-workstation', 'git']
+    name: ['java-1.8.0-amazon-corretto.x86_64', 'java-1.8.0-amazon-corretto-devel.x86_64', 'krb5-workstation', 'git']
     state: latest
 
 - name: copy krb5 conf
